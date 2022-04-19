@@ -1,0 +1,71 @@
+.keynumber {
+  float: left;
+  font-size: 2em;
+  background: #20232a;
+  color: rgb(97, 218, 251);
+  border: none;
+  padding: 15px;
+  width: 100px;
+  max-width: 150px;
+  margin: 6px;
+  cursor: pointer;
+  display: block;
+  border-radius: 12px;
+  transition: 0.3s;
+}
+
+.keynumber:hover {
+  color: whitesmoke;
+  background: #000;
+}
+
+.keycontrol {
+  float: left;
+  font-size: 2em;
+  background: #20232a;
+  color: rgb(97, 218, 251);
+  border: none;
+  padding: 15px;
+  width: 150px;
+  margin: 6px;
+  cursor: pointer;
+  display: block;
+  border-radius: 12px;
+  transition: 0.3s;
+}
+
+.keycontrol:hover {
+  color: whitesmoke;
+  background: #000;
+}
+
+.keypad_wrap {
+  display: block;
+  background-color: dodgerblue;
+  max-width: 500px;
+  min-width: 500px;
+  height: 370px;
+}
+
+@media screen and (max-width: 730px) {
+  .keypad_wrap {
+    display: block;
+    max-width: 320px;
+    min-width: 320px;
+    height: 190px;
+  }
+
+  .keynumber {
+    font-size: 1em;
+    padding: 8px;
+    max-width: 70px;
+    margin: 3px;
+  }
+
+  .keycontrol {
+    font-size: 1em;
+    padding: 8px;
+    max-width: 80px;
+    margin: 3px;
+  }
+}
