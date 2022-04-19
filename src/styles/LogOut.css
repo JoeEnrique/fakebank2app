@@ -1,0 +1,27 @@
+.mainlogout {
+  background: linear-gradient(
+    90deg,
+    rgb(43, 89, 216) 0%,
+    rgb(22, 61, 167) 100%
+  );
+}
+
+.thanks {
+  background-color: #ffee58;
+}
+
+.thanks:hover {
+  background-color: #17721f;
+  -webkit-transition: background-color 1000ms linear;
+  -ms-transition: background-color 1000ms linear;
+  transition: background-color 1000ms linear;
+}
+
+@media screen and (max-width: 760px) {
+  .thanks {
+    background-color: #17721f;
+    -webkit-transition: background-color 1000ms linear;
+    -ms-transition: background-color 1000ms linear;
+    transition: background-color 1000ms linear;
+  }
+}

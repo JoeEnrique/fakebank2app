@@ -1,0 +1,191 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: "PT Sans", sans-serif;
+}
+
+body {
+  background-color: white;
+}
+
+.fakebanklogo {
+  margin: 40px auto;
+  width: 300px;
+  display: block;
+}
+
+.bg-image {
+  top: 0;
+  object-fit: cover;
+  width: 100%;
+  height: 100%;
+  position: fixed;
+  z-index: -1;
+}
+
+.icon_display {
+  margin-left: 20px;
+}
+
+.subtitle {
+  display: block;
+  width: fit-content;
+  margin: 20px auto;
+  padding: 18px;
+  height: auto;
+  border: 1px solid;
+  border-radius: 8px;
+  font-size: larger;
+  letter-spacing: 1px;
+  text-align: center;
+}
+
+.main-container {
+  /* background: url('/images/img-home.jpg') center center/cover no-repeat; */
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  box-shadow: inset 0 0 0 1000px rgba(0, 0, 0, 0.2);
+  object-fit: contain;
+}
+
+.main-min-height {
+  min-height: 200px;
+}
+
+.main-container > h1 {
+  color: #fff;
+  font-size: 100px;
+  margin-top: -100px;
+}
+
+.main-container > p {
+  margin-top: 8px;
+  color: #fff;
+  font-size: 32px;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+}
+
+.errorMsg {
+  color: yellow;
+  padding: 4px;
+  width: 320px;
+  height: 32px;
+}
+
+.message-lg {
+  display: block;
+  color: #fff;
+  min-width: 300px;
+  max-width: 700px;
+  margin: 20px auto;
+  padding: 18px;
+  height: auto;
+  border: 1px solid #fff;
+  border-radius: 8px;
+  font-size: larger;
+  letter-spacing: 1px;
+  text-align: center;
+}
+
+.message-lg > p {
+  margin: 10px auto;
+}
+
+.message-xlg {
+  display: block;
+  color: navy;
+  max-width: 1000px;
+  margin: 20px auto;
+  padding: 18px;
+  height: auto;
+  border: 2px solid navy;
+  border-radius: 8px;
+  font-size: larger;
+  letter-spacing: 1px;
+  text-align: center;
+}
+
+.message-xlg-thanks {
+  display: block;
+  margin: 20px auto;
+  padding: 18px;
+  height: auto;
+  border: 2px solid white;
+  border-radius: 8px;
+  text-align: center;
+}
+
+.message-xlg > p {
+  margin: 10px auto;
+}
+
+.absolute-center {
+  /* Internet Explorer 10 */
+  display: -ms-flexbox;
+  -ms-flex-pack: center;
+  -ms-flex-align: center;
+
+  /* Firefox */
+  display: -moz-box;
+  -moz-box-pack: center;
+  -moz-box-align: center;
+
+  /* Safari, Opera, and Chrome */
+  display: -webkit-box;
+  -webkit-box-pack: center;
+  -webkit-box-align: center;
+
+  /* W3C */
+  display: box;
+  box-pack: center;
+  box-align: center;
+}
+
+.form-container {
+  text-align: left;
+}
+
+@media screen and (max-width: 960px) {
+  .main-container > h1 {
+    font-size: 70px;
+    margin-top: -150px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .main-container > h1 {
+    font-size: 50px;
+    margin-top: -100px;
+  }
+
+  .main-container > p {
+    font-size: 30px;
+  }
+
+  .btn-mobile {
+    display: block;
+    text-decoration: none;
+  }
+
+  .btn {
+    width: 100%;
+  }
+
+  .message-lg {
+    max-width: 360px;
+  }
+
+  .fakebanklogo {
+    width: 180px;
+  }
+
+  .message-xlg-thanks {
+    margin-bottom: 50px;
+  }
+}

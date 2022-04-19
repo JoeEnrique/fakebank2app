@@ -1,0 +1,22 @@
+.googlebutton {
+  width: 300px;
+  height: 100px;
+  display: flex;
+  margin: auto;
+  background-color: white;
+  border: 1px solid #fff;
+  border-radius: 8px;
+}
+
+.googlebutton > button {
+  display: flex;
+  margin: auto;
+  padding: 0;
+  border: none;
+  background: none;
+  text-align: center;
+}
+
+.googlebutton > button > img {
+  width: 200px;
+}

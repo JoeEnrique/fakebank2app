@@ -1,0 +1,12 @@
+.warning_box {
+  display: block;
+  background-color: rgb(172, 47, 36);
+  color: #fff;
+  width: 100%;
+  margin: 0 auto;
+  padding: 18px;
+  height: auto;
+  font-size: larger;
+  letter-spacing: 1px;
+  text-align: center;
+}

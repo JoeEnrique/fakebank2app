@@ -1,0 +1,121 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap");
+* {
+  font-family: "Roboto", sans-serif;
+}
+
+.container {
+  display: block;
+  position: relative;
+  max-width: 86vw;
+  height: 650px;
+  margin: 0 auto;
+  padding: 20px;
+  top: 100px;
+  color: rgb(97, 218, 251);
+  background-color: #20232a;
+}
+
+.pcarousel {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  width: 90%;
+  height: 70vh;
+  margin: 0 auto;
+  text-align: center;
+  padding: 10px;
+
+  background-color: #20232a;
+  border-radius: 8px;
+}
+
+.pcarousel_info {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  width: 90%;
+  height: auto;
+  margin: 10px auto;
+  text-align: center;
+  padding: 10px 20px;
+  color: rgb(97, 218, 251);
+  background-color: #20232a;
+  border-radius: 8px;
+}
+
+.pcarousel > img {
+  width: 60%;
+  margin: auto;
+}
+
+.parrow-container {
+  display: block;
+  position: relative;
+  margin: auto 20px;
+  width: 100px;
+  height: 100px;
+  text-align: center;
+}
+
+.parrow {
+  display: block;
+  position: absolute;
+  padding: 2rem; /* Arrow size */
+  box-shadow: 1px -1px 0 1px rgb(97, 218, 251) inset;
+  -webkit-box-shadow: 2px -2px rgb(97, 218, 251) inset;
+  border: solid transparent;
+  border-width: 0 0 2rem 2rem;
+  transition: 0.2s;
+}
+
+.parrow:hover {
+  box-shadow: 2px -2px 0 2px rgb(97, 218, 251) inset;
+  -webkit-box-shadow: 4px -4px rgb(97, 218, 251) inset;
+}
+
+.parrow-up {
+  transform: rotate(135deg);
+}
+.parrow-right {
+  transform: rotate(225deg);
+}
+.parrow-down {
+  transform: rotate(-45deg);
+}
+.parrow-left {
+  transform: rotate(45deg);
+}
+
+a:nth-child(2) {
+  left: 65%;
+}
+
+@media screen and (max-width: 960px) {
+  .container {
+    height: 1400px;
+  }
+}
+
+/*
+.absolute-center {
+  /* Internet Explorer 10 */ /*
+  display: -ms-flexbox;
+  -ms-flex-pack: center;
+  -ms-flex-align: center;*/
+
+/* Firefox */ /*
+  display: -moz-box;
+  -moz-box-pack: center;
+  -moz-box-align: center;*/
+
+/* Safari, Opera, and Chrome */ /*
+  display: -webkit-box;
+  -webkit-box-pack: center;
+  -webkit-box-align: center;*/
+
+/* W3C */ /*
+  display: box;
+  box-pack: center;
+  box-align: center;*/ /*
+}
+*/

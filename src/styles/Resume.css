@@ -1,0 +1,88 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap");
+
+.resume_section_header {
+  margin: 20px auto;
+  padding: 30px;
+  width: 50%;
+  box-shadow: inset 0 0 0 1000px rgba(0, 0, 0, 0.2);
+  border-radius: 8px;
+  color: #0094ff;
+  font-family: "Roboto", sans-serif;
+}
+
+.resume_section {
+  margin: 20px auto;
+  padding: 30px;
+  width: 50%;
+  box-shadow: inset 0 0 0 1000px rgba(0, 0, 0, 0.2);
+  border-radius: 8px;
+}
+
+.reflection_head {
+  letter-spacing: 1px;
+}
+
+.reflection > p {
+  font-size: 1.3rem;
+}
+
+.resume_section > h1 {
+  color: #0094ff;
+  margin-bottom: 20px;
+  text-align: left;
+}
+
+.resume_section > h2 {
+  color: #0094ff;
+  margin-bottom: 20px;
+  text-align: left;
+}
+
+.resume_section > hr {
+  border-top: 8px solid #0095ff;
+  margin: 20px auto;
+  width: 100%;
+}
+
+.resume_subsection > ul {
+  margin: 10px 0;
+  margin-left: 80px;
+  list-style-image: url(../images/resume/bullet18_azul.png);
+  padding: 20px;
+}
+
+.resume_subsection_certifications {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  padding: 20px;
+  width: 100%;
+  height: auto;
+  justify-content: space-between;
+  border-radius: 8px;
+  background-color: #0095ff;
+}
+
+.resume_subsection_certifications > img {
+  max-width: 200px;
+  height: max-content;
+  margin: auto;
+}
+
+.resume_subsection > ul > li {
+  padding: 10px;
+}
+
+.solid {
+  text-align: center;
+}
+
+.last_signature {
+  text-align: right;
+}
+
+@media screen and (max-width: 1000px) {
+  .resume_subsection_certifications > img {
+    margin: 20px auto;
+  }
+}
