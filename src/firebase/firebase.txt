@@ -1,1 +1,2 @@
 
+Create you firebase configuration file in this directory
