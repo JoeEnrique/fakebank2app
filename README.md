@@ -13,7 +13,7 @@ Fake bank application
 ## Project Name: fakebank2
 
 ## Description:
-A capstone project
+A capstone project. This application was creted using React
 
 ## Installation:
 Just clone the repository. Then use npm install command
